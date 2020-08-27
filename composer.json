@@ -1,0 +1,25 @@
+{
+    "name": "maxlzp/code-wars",
+    "description": "codewars katas",
+    "authors": [
+        {
+            "name": "Maxim Linenko",
+            "email": "lmax_job@mail.ru"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "maxlzp\\codewars\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests/"
+        }
+    },
+
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    }
+}
