@@ -2,3 +2,4 @@
 /.idea/
 composer.phar
 .phpunit.result.cache
+/testResults/

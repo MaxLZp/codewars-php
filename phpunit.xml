@@ -28,7 +28,7 @@
     </testsuites>
     <coverage>
         <include>
-            <directory>./src/CodeWars</directory>
+            <directory>./src/</directory>
         </include>
         <report>
             <html outputDirectory="testResults/html-coverage" lowUpperBound="50" highLowerBound="90"/>
