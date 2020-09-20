@@ -38,14 +38,14 @@ class BuildAPileOfCubes
 //        return -1;
 //    }
 
-//    public function findNb($m): int
-//    {
-//        for ($n = 1; ; $n++) {
-//            $sum = $this->cubesSum($n);
-//            if ($m === $sum) {return $n;}
-//            if ($m < $sum) {return -1;}
-//        }
-//    }
+    public function findNb($m): int
+    {
+        for ($n = 1; ; $n++) {
+            $sum = $this->cubesSum($n);
+            if ($m === $sum) {return $n;}
+            if ($m < $sum) {return -1;}
+        }
+    }
 
     /**
      * https://elementy.ru/problems/2068/Summy_kvadratov_summy_kubov
